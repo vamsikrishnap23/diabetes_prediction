@@ -3,3 +3,4 @@ __pycache__/
 .env
 *.pkl
 *.DS_Store
+grid_search/
