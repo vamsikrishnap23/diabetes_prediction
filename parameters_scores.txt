@@ -1,0 +1,21 @@
+logistic regression
+Best parameters found:
+{'C': 0.1, 'l1_ratio': 0.5, 'penalty': 'elasticnet', 'solver': 'saga'}
+Best cross-validation accuracy: 0.7688
+
+
+
+random forest
+Best parameters: {'class_weight': 'balanced', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+Best CV accuracy: 0.7800879648140744
+
+
+decision tree
+Best parameters found:
+{'class_weight': None, 'criterion': 'gini', 'max_depth': 3, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 2}  
+Best cross-validation accuracy: 0.7590
+
+knn
+Best parameters found:
+{'metric': 'euclidean', 'n_neighbors': 11, 'p': 1, 'weights': 'distance'}
+Best cross-validation accuracy: 0.7655
